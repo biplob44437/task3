@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Roboto', sans-serif;
+ }
+
+/* header */
+.navbar-brand h2 {
+    color: rgb(0, 0, 0);
+  }
+  .navbar-brand span {
+      color: blue;
+  }
+  .btn.btn-lg.defoult-btn {
+    background: #c6b9b9;
+    padding: 11px 26px;
+    border-radius: 15px;
+    margin-left: 258px;
+  }
+  /* header css end */
+  /* banne csss start  */
+  .banner-content{
+      margin-top: 50px;
+  }
+  .banner-content h2{
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  }
+  .banner-content p{
+    margin-bottom: 40px;
+    color: #c3bebe;
+
+  }
+  .btn-1{
+    padding: 9px 22px;
+      background-color: white;
+      border: 1px solid#ddd;
+      color: #c3bebe;
+  }
+  .btn-2{
+    padding: 9px 22px;
+    background-color: rgb(29, 106, 207);
+    border: 1px solid rgb(255, 251, 251);
+    color: #b8b4b4;
+    border-radius: 23px;
+  }
+  /* banner  css end  */
+  /* finincial section start  */
+  .financial-section{
+  
+  } 
+.financial-icon img {
+  margin-top: 10px;
+}
+.financial-text{
+ 
+}
+.financial-text h2{}
+.financia-text p{}
+/* finincial end  */
+/* dynamick-team section start  */
+.dynamick-team section{}
+.dinamick-text{
+  margin-top: 20px;
+}
+.dinamick-text h1{}
+.dinamick-text span{
+  color: #9c8cfb;
+}
+.dinamick-text p{
+  color: #c6b9b9;
+}
+
+
+
+@media only screen and (max-width: 760px) {
+  .dinamick-right-img {
+    margin-left: -81px;
+  }
+}
+/* dynamick team css end  */
+/* pricing section -start  */
+.card-pricing{
+  border: 1px solid rgb(206, 206, 206);
+  width: 360px;
+  height:430px;
+  text-align: center;
+  border-radius: 10px;
+ 
+}
+.card-pricing-1{
+  background-color: rgb(29, 106, 207);
+  border: 1px solid rgb(206, 206, 206);
+  width: 360px;
+  height:430px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pricing-icon i{
+  margin-top: 50px;
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #c3bebe;
+}
+.pricing-text {}
+.pricing-text h2 {
+  color: #9e8a8a;
+  letter-spacing: 3px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.pricing-text h4 {
+
+}
+.pricing-text span {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+.pricing-text  h5 {
+  color: #c3bebe;
+  margin-bottom: 40px;
+}
+.pricing-btn{
+  padding: 15px 32px;
+  background-color: aliceblue;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+}
+/* pricing-section end  */
+/* pricing responsive css start  */
+@media only screen and (max-width: 760px) {
+  * {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+}
+/* pricing responsive secton end  */
+/* about section css start  */
+.about-sectoion{
+  background-color: #f6f5fc;
+  margin-top: 50px;
+}
+.about-img img{
+  max-width: 100%;
+  width: 200px;
+}
+.about-text {}
+.about-text h5 {
+  font-size: 18px;
+color: #7c7a7a;
+line-height: 32px;
+}
+.about-text h4 {
+  font-size: 22px;
+  color: #8d8787;
+}
+.about-text  h3{
+  font-size: 16px;
+}
+/* about css stat  */
+/* about responsive start */
+@media only screen and (max-width: 760px) {
+  .about-img img {
+  max-width: 100%;
+  width: 368px;
+}
+}
+/* about-responsive end */
+/* contact-section start  */
+.contact-section {}
+
+.contact-left {
+  margin-top: 105px;
+}
+
+.contact-left p{
+  color: #a7a7a8;
+}
+.contact-left h2{
+  margin-bottom: 51px;
+ 
+}
+.contact-icon i{ 
+  color: rgb(29, 106, 207);
+  margin-bottom: 10px;
+
+}
+
+  .contact-icon p {
+    margin-left: 15px;
+    margin-bottom: 27px;
+  }
+  input ,textarea {
+    padding: 13px;
+    width: 100%;
+    background: #fff;
+    border: n;
+    margin: 7px;
+  }
+.contact-form h1{
+  font-size: 30px;
+}
+.contact-form h4{
+  color: #8d8787;
+  letter-spacing: 4px;
+}
+.btn-dark {
+  color: #fff;
+  background-color: #6c55f9;
+  border-color: #6c55f9;
+  padding: 11px 24px;
+  margin-left: 6px;
+  border-radius: 35px;
+}
+
+/* responsive css */
+@media only screen and (max-width: 760px) {
+  .blog-section {
+    width: 100%;
+  }
+  .contact-form {
+    margin-left: -33px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .contact-section {
+    text-align: center;
+  }
+}
+/* responsive cs end  */
+/* contat section end  */
+/* blog section srart  */
+.blog-section {}
+.blog-text{}
+.blog-text h6{
+  color: rgb(170, 165, 165);
+  letter-spacing: 4px;
+}
+.blog-text h1{}
+.blog-text h1 span{
+  color: #6c55f9;
+}
+.card-main img{
+  max-width: 100%;
+  width: 50px;
+  border-radius: 50%;
+
+}
+.card-main h4{
+  margin-top: 11px;
+  margin-left: 16px;
+  color: #ddd;
+  color: #6b5e5e;
+  font-weight: 300;
+}
+.card-main{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-left: 26px;
+  width: 281px;
+  height: 343px;
+}
+.card-text {
+margin-top: 10px;
+}
+.card-text h2{
+  margin-top: 31px;
+
+color: #716d68;
+font-weight: 300;
+}
+.card-text p {
+  margin-top: 19px;
+  color: #292525;
+}
+ .card-text a {
+  text-decoration: navajowhite;
+  font-size: 23px;
+}
+.fa-solid.fa-angle-right {
+  color: #1562dc;
+  font-size: 24px;
+  margin-top: 8px;
+}
+.btn-dark-1 {
+  color: rgb(45, 100, 200);
+  background-color: #ffffff;
+  border-color: #553dce;
+  padding: 11px 24px;
+  margin-left: 6px;
+  border-radius: 35px;
+}
+
+/* responsive css */
+@media only screen and (max-width: 760px) {
+  .col-lg-3.col-sm-3 {
+    margin-left: 11px;
+  }
+}
+/* responsive css end  */
+/* blog-section end  */
+/* footer  */
+.footer-text{}
+.footer-text h6{
+  color: #6c55f9;
+}
+.footer-text p{
+  color: #a7a7a8;
+}
+.footer-2{}
+.footer-2 h2{
+  color: #7c7a7a;
+}
+.footer-2{}
+li {
+  margin-bottom: 11px;
+  color: #98969a;
+}
+.fa-brands.fa-facebook-f {
+  padding: 16px 13px;
+  font-size: 23px;
+  color: #2b3ab2;
+  background: #c9c9ae;
+  margin-left: 10px;
+  border-radius: 67%;
+  line-height: 10px;
+  margin-top: 13px;
+}
+
+/* responsive css */
+
+@media only screen and (max-width: 760px) {
+  input, textarea {
+    padding: 13px;
+    width: 69%;
+    margin: 12px;
+  }
+  .col-lg-3.col-sm-3 {
+    margin-left: 26px;
+  }
+  .footer-text p {
+    font-size: 20px;
+  }
+}
+/* responsive css end  */
+/* footer end  */
